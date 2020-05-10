@@ -1,0 +1,25 @@
+site_name: DS Lambda notes
+theme: 'windmill'
+
+nav:
+  - Home: index.md
+  - Unit 1:
+      - Assignments:
+        - 111 Exploratory Data Analysis: ./Unit-1/Assignments/LS_DS_111_Exploratory_Data_Analysis_Assignment.ipynb
+        - 112 Make Features: ./Unit-1/Assignments/LS_DS_112_Make_Features_Assignment.ipynb
+        - 113 Join and Reshape Data: ./Unit-1/Assignments/LS_DS_113_Join_and_Reshape_Data_Assignment.ipynb
+        - 114 Make Explanatory Visualizations: ./Unit-1/Assignments/LS_DS_114_Make_Explanatory_Visualizations_Assignment.ipynb
+      - Lecture:
+        - ./Unit-1/Lecture/LS_DS16_111_Exploratory_Data_Analysis.ipynb
+        - ./Unit-1/Lecture/LS_DS16_112_Make_Features.ipynb
+        - ./Unit-1/Lecture/LS_DS16_113_Join_and_Reshape_Data.ipynb
+        - ./Unit-1/Lecture/LS_DS16_114_Make_Explanatory_Visualizations.ipynb
+      - Notes:
+        - ./Unit-1/Notes/Copy_of_LS_DS_111_Exploratory_Data_Analysis_Assignment.ipynb
+        - ./Unit-1/Notes/Copy_of_Copy_of_LS_DS_112_Make_Features_Assignment.ipynb
+        - ./Unit-1/Notes/Copy_of_LS_DS_112_Make_Features_Assignment.ipynb
+        - ./Unit-1/Notes/LS_DS_113_Join_and_Reshape_Data_Assignment.ipynb
+        - ./Unit-1/Notes/Copy_of_LS_DS_114_Make_Explanatory_Visualizations_Assignment.ipynb
+
+plugins:
+  - mkdocs-jupyter
