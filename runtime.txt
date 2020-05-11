@@ -1,2 +1,2 @@
 # content in runtime.txt
-python 3.6
+python 3.7
