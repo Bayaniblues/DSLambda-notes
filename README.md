@@ -8,6 +8,20 @@ Mkdocs is a common Documentation library to build static websites fastidiously. 
 build Documentation is a valuable skill set that will not only help you as a data scientist, but as a 
  competent python developer as well.
 
+## deploy
+
+    # content in requirements.txt
+    mkdocs==1.0.4
+    
+    # content in runtime.txt
+    3.6
+    
+Create a new site and link git repository to netlify.
+
+Specify the build command: mkdocs build.
+
+Specify the site folder: site.
+
 ## Requirements
 
     pip install wheel
@@ -28,5 +42,8 @@ build Documentation is a valuable skill set that will not only help you as a dat
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+
+
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
