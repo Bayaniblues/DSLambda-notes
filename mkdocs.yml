@@ -27,8 +27,10 @@ nav:
           - ./sprint-2/Assignments/LS_DS_123_Introduction_to_Bayesian_Inference_Assignment.ipynb
           - Module 4: ./sprint-2/Assignments/template.md
       - Lecture:
-          - ./sprint-2/Lecture/LS_DS_121_Statistics_Probability_and_Inference.ipynb
+          - ./sprint-2/Lecture/LS_DS16_121_Statistics_Probability_and_Inference.ipynb
           - ./sprint-2/Lecture/LS_DS_122_Sampling_Confidence_Intervals_and_Hypothesis_Testing.ipynb
           - ./sprint-2/Lecture/LS_DS_123_Introduction_to_Bayesian_Inference.ipynb
+      - Notes:
+          - ./sprint-2/Notes/Copy_of_LS_DS_121_Statistics_Probability_Assignment.ipynb
 plugins:
   - mkdocs-jupyter
