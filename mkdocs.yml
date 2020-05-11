@@ -1,5 +1,5 @@
 site_name: DS Lambda notes
-theme: 'windmill'
+theme: 'gitbook'
 
 nav:
   - Home: index.md
