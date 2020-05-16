@@ -1,4 +1,9 @@
 # Data Science Lambda notes
+## !Updates!
+As of 5/16/2020, Material design was implemented with a search function. 
+<b>However the conversion of Jupyter notebooks to mkdown makes the search function very laggy.</b>
+Use with caution, Will need to fix that in future implementations.
+
 ### [Github](https://github.com/Bayaniblues/DSLambda-notes)
 ### [Netlify](https://ds16lambda.netlify.app/)
 
@@ -11,27 +16,14 @@ and is often found in the wild. Learning how to
 build Documentation is a valuable skill set that will not only help you as a data scientist, but as a 
  competent python developer as well.
 
-## Install
+## deploy
 
-install a Virtualenv go to https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/
-
-clone repo
-
-    git clone https://github.com/Bayaniblues/DSLambda-notes.git
-
- install dependencies in requirements.txt
+ content in requirements.txt
  
-    pip install -r requirements.txt
-
-start development. At http://127.0.0.1:8000/
-
-    mkdocs serve
-
-Drag and drop assignments and lectures to file system at 
-./DSLambda-notes/docs/sprint-2/Lecture/LS_DS16_121_Statistics_Probability_and_Inference.ipynb
+    mkdocs==1.0.4
     
-
-
+    3.6
+    
 Create a new site and link git repository to netlify.
 
 Specify the build command: mkdocs build.
@@ -64,4 +56,4 @@ Build and site commands are in the netlify.toml file
 
 
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).___
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).

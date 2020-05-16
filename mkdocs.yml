@@ -1,5 +1,9 @@
 site_name: DS Lambda notes
-theme: 'gitbook'
+theme:
+  name: material
+  custom_dir: theme
+  features:
+    - instant
 
 nav:
   - Home: index.md
@@ -28,6 +32,22 @@ nav:
       - Q & A:
           - ./sprint-2/Q-and-A/Statistics_Wednesday_Q&A_DS16.ipynb
           - ./sprint-2/Q-and-A/Thursday_Statistics_Q&A_DS16.ipynb
+  - Sprint 3:
+      - Assignments:
+          - ./sprint-3/assignments/LS_DS_131_Vectors_and_Matrices_Assignment.ipynb
+          - ./sprint-3/assignments/LS_DS_132_Intermediate_Linear_Algebra_Assignment.ipynb
+          - ./sprint-3/assignments/LS_DS_133_High_Dimensional_Data_Assignment.ipynb
+          - ./sprint-3/assignments/LS_DS_134_Clustering_Assignment.ipynb
+      - Lecture:
+          - ./sprint-3/lecture/LS_DS_131_Vectors_and_Matrices.ipynb
+          - ./sprint-3/lecture/LS_DS_132_Intermediate_Linear_Algebra.ipynb
+          - ./sprint-3/lecture/LS_DS_133_High_Dimensional_Data.ipynb
+          - ./sprint-3/lecture/LS_DS_134_Clustering_and_NFL.ipynb
 
 plugins:
+  - localsearch
   - mkdocs-jupyter
+
+
+extra_javascript:
+    - search/search_index.js

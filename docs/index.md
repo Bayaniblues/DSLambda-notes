@@ -1,4 +1,9 @@
 # Data Science Lambda notes
+## !Updates!
+As of 5/16/2020, Material design was implemented with a search function. 
+<b>However the conversion of Jupyter notebooks to mkdown makes the search function very laggy.</b>
+Use with caution, Will need to fix that in future implementations.
+
 ### [Github](https://github.com/Bayaniblues/DSLambda-notes)
 ### [Netlify](https://ds16lambda.netlify.app/)
 
