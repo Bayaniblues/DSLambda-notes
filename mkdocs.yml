@@ -1,6 +1,7 @@
 site_name: DS Lambda notes
 theme:
   name: material
+  theme_dir: 'mkdocs-material/material'
   custom_dir: theme
   features:
     - instant
