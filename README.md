@@ -6,6 +6,7 @@ Use with caution, Will need to fix that in future implementations.
 
 ### [Github](https://github.com/Bayaniblues/DSLambda-notes)
 ### [Netlify](https://ds16lambda.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/309e27d7-1f1f-4458-9937-226e7f24a096/deploy-status)](https://app.netlify.com/sites/ds16lambda/deploys)
 
 Here are the notes so far for DS-16. Which includes blank Assignments, Lecture notes
 and my own personal answers to the assignments. Please fork or git clone to modify, and include your
