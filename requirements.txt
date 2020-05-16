@@ -1,6 +1,5 @@
 wheel
 mkdocs==1.1
-mkdocs-gitbook==0.0.1
 mkdocs-jupyter==0.12.0
-mkddocs-material==4
+mkdocs-material==4
 mkdocs-localsearch==0.5.0
